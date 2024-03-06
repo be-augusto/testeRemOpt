@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* tr {
+    align-items: center;
+}
+
+td {
+    text-align: center !important;
+    justify-content: center !important;
+} */
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table tr{
+    vertical-align: middle;
+}
+
+tr img, tr button{
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+
+#addPokemonPopOut {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+    margin-top: 40%;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 40%;
+    padding: 2.5rem;
+}
+
+#addPokemonPopOut form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+#addPokemonPopOut form div {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+#showModal {
+    background-color: #0707a7;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+#deleteRowButton {
+    background-color: #b80f0f;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.newModalInput {
+    margin: 1rem auto;
+}
+
+#deleteModalInput {
+    background-color: #b80f0f;
+    margin-left: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
